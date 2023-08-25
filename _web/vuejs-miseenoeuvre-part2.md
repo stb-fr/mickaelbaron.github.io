@@ -2050,6 +2050,10 @@ Contrairement à la version précédente du fichier *App.vue*, le composant *Cre
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap"
+
 // Import routing configuration
 import router from './router'
 import './assets/polldle.css'
